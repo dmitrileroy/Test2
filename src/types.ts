@@ -13,74 +13,92 @@
 *
 **********************************************************************/
 
+
 export interface Mui59TestProps {
   className?: any;
 };
+
 
 export interface Account1Props {
   className?: any;
 };
 
+
 export interface HomeProps {
   className?: any;
 };
+
 
 export interface Card18Props {
   className?: any;
   prop1: any;
 };
 
+
 export interface Frame2Props {
   className?: any;
 };
+
 
 export interface Frame7Props {
   className?: any;
 };
 
+
 export interface Frame4Props {
   className?: any;
 };
+
 
 export interface Frame6Props {
   className?: any;
 };
 
+
 export interface Frame11Props {
   className?: any;
 };
+
 
 export interface Frame14Props {
   className?: any;
 };
 
+
 export interface Frame20Props {
   className?: any;
 };
+
 
 export interface Frame1Props {
   className?: any;
 };
 
+
 export interface Frame21Props {
   className?: any;
 };
+
 
 export interface Frame23Props {
   className?: any;
 };
 
+
 export interface OutlinedTextProps {
   className?: any;
 };
+
 
 export interface Shape5Props {
   className?: any;
 };
 
+
 export interface PathProps {
   className?: any;
 };
+
 
 export interface ImageTestProps {
   className?: any;
