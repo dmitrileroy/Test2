@@ -14,6 +14,6 @@
 **********************************************************************/
 
 export interface Frame6Frame3Props {
-  className?: any;
+  className?: string;
 };
 
