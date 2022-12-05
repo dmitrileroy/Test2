@@ -39,7 +39,7 @@ const Frame71: any = styled(Frame7)(({ theme }: any) =>({
 }));
  
 function Frame6Frame3(props: Frame6Frame3Props): JSX.Element {
-  const {data} = useFrame6Frame3();
+  const {data} = useFrame6Frame3(props);
   
     return (
     <Frame6Frame31  className={props.className}   >
