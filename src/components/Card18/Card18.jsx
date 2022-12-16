@@ -19,6 +19,7 @@ import HeartImage from 'src/assets/images/Heart.png';
 import { ReactComponent as StarBorderFilled1 } from 'src/assets/images/_StarBorderFilled.svg';
 import { styled } from '@mui/material/styles';
 import ImageImage from 'src/assets/images/Image_8.png';
+import useCard18 from 'src/components/Card18/useCard18';
 
 const TypeQuest = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette['Background']['Default'],
@@ -241,10 +242,12 @@ const Price2 = styled('div')(({ theme }) => ({
 }));
 
 function Card18(props) {
+  const { data } = useCard18(props);
+
   return (
     <TypeQuest>
       <InternalLink to="/google.com">
-        <Image style={{ width: '200px' }} hello={"it's me"}></Image>
+        <Image style={{ width: '200px' }} hello={data.hello}></Image>
       </InternalLink>
       <Price>
         <InternalLink1 to="/quest.ai">
