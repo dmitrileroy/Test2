@@ -247,9 +247,15 @@ function Card18(props) {
 
   return (
     <TypeQuest>
-      <InternalLink to="/google.com">
-        <Image fns={fns} style={{ width: '200px' }} hello={data.hello}></Image>
-      </InternalLink>
+      {true && (
+        <InternalLink to="/google.com">
+          <Image
+            fns={fns}
+            style={{ width: '200px' }}
+            hello={data.hello}
+          ></Image>
+        </InternalLink>
+      )}
       <Price>
         <InternalLink1 to="/quest.ai">
           <Price1>{`$89.99`}</Price1>
