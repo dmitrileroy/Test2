@@ -244,7 +244,7 @@ function Card18(props) {
   return (
     <TypeQuest>
       <InternalLink to="/google.com">
-        <Image style={{ width: '200px' }}></Image>
+        <Image style={{ width: '200px' }} hello={"it's me"}></Image>
       </InternalLink>
       <Price>
         <InternalLink1 to="/quest.ai">
