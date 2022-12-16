@@ -9,11 +9,12 @@
  *
  *
  **********************************************************************/
-
+import React from 'react';
 const useCard18 = (props) => {
-  let data = {};
+  const [d, setD] = useState()
+  let data = {d};
 
-  let fns = {};
+  let fns = {setD};
   return { data, fns };
 };
 
