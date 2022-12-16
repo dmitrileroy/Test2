@@ -11,10 +11,11 @@
  **********************************************************************/
 import React from 'react';
 const useCard18 = (props) => {
+  const getBackgroundImage = () => {};
   const [d, setD] = useState()
   let data = {d};
 
-  let fns = {setD};
+  let fns = {setD,getBackgroundImage};
   return { data, fns };
 };
 
